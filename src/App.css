@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-color: #303353;*/
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bg-login {
+	background-color: #3A3D5C;
+	border-radius: 16px;
+}
+.bg-input {
+	background-color: rgba(255, 255, 255, 0.05)!important;
+	color: rgba(255, 255, 255, 0.87)!important;
+	border: 0px!important;
+	font-size: 1em!important;
+	font-weight: bold;
+}
+.bg-button {
+	background-color: #FFE790!important;
+	color: #303353!important;
+	font-size: 0.8em!important;
+}
+.bg-label {
+	font-weight: bold;
+	color: rgba(255, 255, 255, 0.87)!important;
+}
+.bg-text {
+	color: #FFE790!important;
+	font-size: 0.6em!important;
+}
+.bg-span {
+	background-color: #303353!important;
+	color: rgba(255, 255, 255, 0.87)!important;
+	border: 0px!important;
+	font-weight: bold!important;
+}
+.bg-hints {
+	background-color: #303353!important;
+}
+.bg-panel {
+	background-color: #3A3D5C!important;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button { 
+	-webkit-appearance: none;
+}
+
+.w-20 {
+	width: 20%!important;
+}
+.w-30 {
+	width: 30%!important;
+}
+.w-35 {
+	width: 35%!important;
+}
+.w-40 {
+	width: 40%!important;
+}
+
+.dropdown-toggle::after {
+  display: none !important; 
+}
